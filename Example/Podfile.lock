@@ -1,0 +1,16 @@
+PODS:
+  - XPYModuleA (1.0)
+
+DEPENDENCIES:
+  - XPYModuleA (from `../`)
+
+EXTERNAL SOURCES:
+  XPYModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XPYModuleA: 76b142aa671641e5da84fa487fd3d3a5537aa06f
+
+PODFILE CHECKSUM: 0233ea9d79c61828c0ec343872897e767fae7c66
+
+COCOAPODS: 1.9.1

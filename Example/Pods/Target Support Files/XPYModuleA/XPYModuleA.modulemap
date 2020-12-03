@@ -1,0 +1,6 @@
+framework module XPYModuleA {
+  umbrella header "XPYModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}
