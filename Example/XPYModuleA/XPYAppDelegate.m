@@ -8,11 +8,18 @@
 
 #import "XPYAppDelegate.h"
 
+#import "XPYViewController.h"
+
 @implementation XPYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    XPYViewController *controller = [[XPYViewController alloc] init];
+    self.window.rootViewController = controller;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

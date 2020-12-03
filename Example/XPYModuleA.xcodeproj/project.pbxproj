@@ -190,7 +190,6 @@
 				C9E1D4FC309BD19E30DF17FA /* Pods-XPYModuleA_Tests.debug.xcconfig */,
 				3B7B7867B762A7C5CD880637 /* Pods-XPYModuleA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
